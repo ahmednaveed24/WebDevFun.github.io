@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Image gallery</title>
+	
+	<!--
+
+         Name: Ahmed Naveed
+
+         File: lab4part2.html
+
+         Date: 24 November 2023
+
+         An Image gallery of different kinds of pictures.
+
+-->
+
+    <link rel="stylesheet" href="style.css">
+	
+	<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin: 20px;
+        }
+
+        .gallery figure {
+            margin: 10px;
+            text-align: center;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            height: auto;
+            border: 2px solid #333;
+            border-radius: 8px;
+        }
+
+        .gallery figcaption {
+            margin-top: 5px;
+            font-size: 14px;
+            color: #666;
+        }
+    </style>
+    
+  </head>
+
+<body>
+    <h1>Image gallery example</h1>
+
+    <div class="full-img">
+      <img class="displayed-img" src="images/pic1.jpg" alt="Closeup of a human eye">
+      <div class="overlay"></div>
+	  <img class="displayed-img" src="images/pic2.jpg" alt="Rocks that looks like a wave">
+      <div class="overlay"></div>
+	  <img class="displayed-img" src="images/pic3.jpg" alt="Purple and White Pansies">
+      <div class="overlay"></div>
+	  <img class="displayed-img" src="images/pic4.jpg" alt="Section Of Wall From a Pharoah's Tomb">
+      <div class="overlay"></div>
+	  <img class="displayed-img" src="images/pic5.jpg" alt="Large Moth On A Leaf">
+      <div class="overlay"></div>
+      <button class="dark">Darken</button>
+    </div>
+
+    <div class="thumb-bar">
+
+
+    </div>
+    <script src="./main1.js/main1.js"></script>
+  </body>
+</html>
