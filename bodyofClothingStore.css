@@ -1,0 +1,41 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 1rem;
+  text-align: center;
+}
+
+header nav a {
+  margin: 0 10px;
+  color: #fff;
+  text-decoration: none;
+}
+
+main {
+  padding: 2rem;
+}
+
+.categories-container, .products-container {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.category-card, .product-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 1rem;
+  text-align: center;
+  width: 200px;
+}
+
+.category-card img, .product-card img {
+  max-width: 100%;
+  height: auto;
+}

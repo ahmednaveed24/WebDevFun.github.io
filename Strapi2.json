@@ -1,0 +1,14 @@
+[
+  {
+    "id": 1,
+    "name": "Shirts",
+    "description": "Explore our range of shirts for every occasion.",
+    "image": "/uploads/shirts_category.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Pants",
+    "description": "Stylish and comfortable pants.",
+    "image": "/uploads/pants_category.jpg"
+  }
+]

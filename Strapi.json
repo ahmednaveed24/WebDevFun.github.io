@@ -1,0 +1,18 @@
+[
+  {
+    "id": 1,
+    "name": "Classic T-Shirt",
+    "description": "100% cotton t-shirt available in multiple colors.",
+    "price": 25.00,
+    "image": "/uploads/classic_tshirt.jpg",
+    "category": "Shirts"
+  },
+  {
+    "id": 2,
+    "name": "Denim Jeans",
+    "description": "Comfort-fit denim jeans for everyday wear.",
+    "price": 50.00,
+    "image": "/uploads/denim_jeans.jpg",
+    "category": "Pants"
+  }
+]

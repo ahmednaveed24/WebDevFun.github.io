@@ -1,0 +1,8 @@
+{
+  "id": "1",
+  "name": "Classic T-Shirt",
+  "price": 34.99,
+  "description": "100% cotton t-shirt.",
+  "image": "https://example.com/images/tshirt.jpg",
+  "category": "Shirts"
+}

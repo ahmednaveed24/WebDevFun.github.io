@@ -1,0 +1,22 @@
+{% macro pagination(currentPage, totalPages, baseUrl) %}
+<div class="pagination">
+    {% if currentPage > 1 %}
+        <a href="{{ baseUrl }}{{ currentPage - 1 }}" class="pagination__prev">Previous</a>
+    {% endif %}
+
+    {% for page in (1..totalPages) %}
+        {% if page == currentPage %}
+            <span class="pagination__page pagination__page--active">{{ page }}</span>
+        {% else %}
+            <a href="{{ baseUrl }}{{ page }}" class="pagination__page">{{ page }}</a>
+        {% endif %}
+    {% endfor %}
+
+    {% if currentPage < totalPages %}
+        <a href="{{ baseUrl }}{{ currentPage + 1 }}" class="pagination__next">Next</a>
+    {% endif %}
+</div>
+{% endmacro %}
+
+{# Usage example: #}
+{{ pagination(currentPage, totalPages, '/products/page/') }}
